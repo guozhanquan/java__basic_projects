@@ -1,0 +1,125 @@
+
+
+html {
+    font-size: 8px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0;
+}
+
+
+.messages {
+    margin: auto;
+    width: 95%;
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.danger {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #100f0f;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.title {
+    font-size: 10rem;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #161717, #0a0a0a);
+    background-clip: unset;
+    -webkit-background-clip: text;
+    color: transparent;
+    height: auto;
+    box-sizing: border-box;
+}
+
+
+.done {
+    width: 80rem;
+    height: 60rem;
+    border: 3px solid #0c0c0c;
+    border-radius: 10px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    display: block;
+    padding: 1rem;
+    position: relative;
+    background-color: #eee;
+}
+
+.image {
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: #0e0d0d;
+    font-size: 5rem;
+    color: #fff;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.result {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.success, .fail, .waiting {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.success {
+    color: #0f0f10;
+}
+
+
+.fail {
+    color: #0e0d0d;
+}
+
+
+.waiting {
+    color: #090909;
+}
+
+
+.form-inline {
+    margin: auto;
+}
+
+
+.file {
+    color: #0e0d0d;
+    font-weight: bold;
+}
+
+#UPLOAD {
+    font-weight: bold;
+}
+
+.btn-close {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 3rem;
+}
